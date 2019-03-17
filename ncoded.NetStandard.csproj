@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Basic Toolset for .NetStandard / .NetCore apps. Including Log, Storage, simple InvertsionOfControl, etc.</Description>
+  </PropertyGroup>
+
+</Project>
