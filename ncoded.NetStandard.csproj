@@ -4,6 +4,11 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Basic Toolset for .NetStandard / .NetCore apps. Including Log, Storage, simple InvertsionOfControl, etc.</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/naice/ncoded.NetStandard/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/naice/ncoded.NetStandard/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/naice/ncoded.NetStandard/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
