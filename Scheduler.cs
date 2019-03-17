@@ -122,8 +122,10 @@ namespace ncoded.NetStandard
 
         public Schedule CreateRecurringScheduleFromToday(Action action, TimeSpan when, TimeSpan recurrence)
         {
-            var schedule = new Schedule(_dateTimeProvider.Now.Date.Add(when), action);
-            schedule.Recurrence = recurrence;
+            var schedule = new Schedule(_dateTimeProvider.Now.Date.Add(when), action)
+            {
+                Recurrence = recurrence
+            };
             return schedule;
         }
     }
